@@ -17,7 +17,7 @@ import com.androidtraining.personalrutineapp.entity.Trainee
 @TypeConverters(DateTypeConverter::class, ListConverter::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun exerciseDao(): ExerciseDao
-    abstract fun dayRoutineDao(): GenderDao
+    abstract fun genderDao(): GenderDao
     abstract fun routineDao(): RoutineDao
     abstract fun traineeDao(): TraineeDao
 

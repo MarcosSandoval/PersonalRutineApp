@@ -5,7 +5,7 @@ import android.arch.persistence.room.*
 @Entity
 data class Exercise(
         @PrimaryKey(autoGenerate = true)
-        val id: Int,
+        val exerciseId: Int,
         val name: String,
         val repetitions:Int,
         @ColumnInfo(name = "machine_name")

@@ -10,6 +10,6 @@ data class Trainee(
         val id: Int,
         val name: String,
         val age: Int,
-        val gender: String,
+        val gender: Int?,
         @Embedded
         val routine: Routine)
